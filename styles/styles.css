@@ -4,7 +4,7 @@
 }
 body{
     font-family: sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 
 }
 h1{
@@ -44,9 +44,13 @@ nav ul li{
 .div-1{
     grid-area: div-1;
     height: 225px;
-    background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
+    background-image: repeating-linear-gradient(
+        rgb(214, 214, 214) 0% 1%,
+        white 1% 10%
+        );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .div-1 p{
     margin-top: 100px;
@@ -57,6 +61,11 @@ nav ul li{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
+    background-image: repeating-linear-gradient(
+        rgb(214, 214, 214) 0% 1%,
+        white 1% 10%
+        );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .div-2 p{
     margin-top: 100px;
@@ -67,6 +76,11 @@ nav ul li{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
+    background-image: repeating-linear-gradient(
+        rgb(214, 214, 214) 0% 1%,
+        white 1% 10%
+        );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .div-3 p{
     margin-top: 100px;
@@ -77,6 +91,11 @@ nav ul li{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
+    background-image: repeating-linear-gradient(
+        rgb(214, 214, 214) 0% 1%,
+        white 1% 10%
+        );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .div-4 p{
     margin-top: 100px;
