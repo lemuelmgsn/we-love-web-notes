@@ -25,18 +25,36 @@ span{
     background-color: #B60000;
     border-radius: 20px;
     padding: 4px;
+    box-shadow:
+    0 0 0.1em red,
+    0 0 0.2em red,
+    0 0 0.3em red;
+    text-shadow:
+    0 0 0.1em red,
+    0 0 0.2em red,
+    0 0 0.3em red;
 }
 nav ul{
     text-align: center;
     list-style-type: none;
     font-weight: bold;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 nav ul li{
     display: inline;
     margin-right: 3em;
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+    
 }
 section{
     margin: 30px;
@@ -59,10 +77,10 @@ section{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    background-image: repeating-linear-gradient(
-        rgb(214, 214, 214) 0% 0.25%,
-        white 0.25% 7%
-        );
+    /* background-image: repeating-linear-gradient( */
+        /* rgb(214, 214, 214) 0% 0.25%, */
+        /* white 0.25% 7% */
+        /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
 }
@@ -79,10 +97,10 @@ section{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    background-image: repeating-linear-gradient(
-        rgb(214, 214, 214) 0% 0.25%,
-        white 0.25% 7%
-        );
+    /* background-image: repeating-linear-gradient( */
+        /* rgb(214, 214, 214) 0% 0.25%, */
+        /* white 0.25% 7% */
+        /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
 }
@@ -98,10 +116,10 @@ section{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    background-image: repeating-linear-gradient(
-        rgb(214, 214, 214) 0% 0.25%,
-        white 0.25% 7%
-        );
+    /* background-image: repeating-linear-gradient( */
+        /* rgb(214, 214, 214) 0% 0.25%, */
+        /* white 0.25% 7% */
+        /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
 }
@@ -111,4 +129,8 @@ section{
     padding-right: 60px;
     font-weight: bold;
     font-size: 20px;
+}
+.note-tekst{
+    text-align: left;
+    padding-left: 30px;
 }
