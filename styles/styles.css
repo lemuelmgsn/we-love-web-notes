@@ -92,13 +92,6 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
 }
-.div-1 h3{
-    margin-top: 25px;
-    text-align: left;
-    padding-left: 32px;
-    font-weight: bold;
-    font-size: 20px;
-}
 /* -------------------------------------------------------NOTE - 2 ----------------------------------------------------*/
 .div-2{
     grid-area: div-2;
@@ -111,11 +104,6 @@ section{
         /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
-}
-.div-2 h3{
-    margin-top: 25px;
-    font-weight: bold;
-    font-size: 20px;
 }
 /* -------------------------------------------------------NOTE - 3 ----------------------------------------------------*/
 .div-3{
@@ -130,13 +118,6 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
 }
-.div-3 h3{
-    margin-top: 25px;
-    text-align: right;
-    padding-right: 32px;
-    font-weight: bold;
-    font-size: 20px;
-}
 /* -------------------------------------------------------NOTE - 4 ----------------------------------------------------*/
 .div-4{
     grid-area: div-4;
@@ -149,13 +130,6 @@ section{
         /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
-}
-.div-4 h3{
-    margin-top: 25px;
-    text-align: left;
-    padding-left: 32px;
-    font-weight: bold;
-    font-size: 20px;
 }
 /* -------------------------------------------------------NOTE - 5 ----------------------------------------------------*/
 .div-5{
@@ -170,13 +144,6 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
 }
-.div-5 h3{
-    margin-top: 20px;
-    text-align: center;
-    /* padding-right: 60px; */
-    font-weight: bold;
-    font-size: 20px;
-}
 /* -------------------------------------------------------NOTE - 6 ----------------------------------------------------*/
 .div-6{
     grid-area: div-6;
@@ -190,13 +157,6 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 500px;
 }
-.div-6 h3{
-    margin-top: 20px;
-    text-align: right;
-    padding-right: 60px;
-    font-weight: bold;
-    font-size: 20px;
-}
 /* ----------------------------------------------HEADINGS BINNEN DE NOTES--------------------------------------------------- */
 h4{
     text-align: center;
@@ -205,21 +165,31 @@ h5{
     text-align: center;
 }
 /* h6 positie voor ----- "wat is digitale toegankelijkheid */
-.p-linkerkant{
+h6{
     text-align: left;
     padding-left: 32px;
-}
-h6{
     font-size: 17px;
 }
-
-
-
-
-
-
-
-
+.h3-links{
+    margin-top: 25px;
+    text-align: left;
+    padding-left: 32px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.h3-midden{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.h3-rechts{
+    margin-top: 25px;
+    text-align: right;
+    padding-right: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
 
@@ -227,8 +197,11 @@ h6{
 
 .note-tekst{
     text-align: left;
-    padding-left: 30px;
 }
 p{
     font-size: 16px;
+    text-align: left;
+    padding-left: 32px;
 }
+
+
