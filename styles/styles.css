@@ -85,12 +85,12 @@ section{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    /* background-image: repeating-linear-gradient( */
-        /* rgb(214, 214, 214) 0% 0.25%, */
-        /* white 0.25% 7% */
-        /* ); */
+    background-image: repeating-linear-gradient(
+        rgb(214, 214, 214) 0% 0.25%,
+        white 0.25% 7%
+        );  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 500px;
+    height: 575px;
 }
 /* -------------------------------------------------------NOTE - 2 ----------------------------------------------------*/
 .div-2{
@@ -98,12 +98,12 @@ section{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    /* background-image: repeating-linear-gradient( */
-        /* rgb(214, 214, 214) 0% 0.25%, */
-        /* white 0.25% 7% */
-        /* ); */
+    background-image: repeating-linear-gradient(
+        rgb(214, 214, 214) 0% 0.25%,
+        white 0.25% 7%
+        );
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 500px;
+    height: 575px;
 }
 /* -------------------------------------------------------NOTE - 3 ----------------------------------------------------*/
 .div-3{
@@ -111,12 +111,12 @@ section{
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    /* background-image: repeating-linear-gradient( */
-        /* rgb(214, 214, 214) 0% 0.25%, */
-        /* white 0.25% 7% */
-        /* ); */
+    background-image: repeating-linear-gradient(
+        rgb(214, 214, 214) 0% 0.25%,
+        white 0.25% 7%
+        );
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 500px;
+    height: 575px;
 }
 /* -------------------------------------------------------NOTE - 4 ----------------------------------------------------*/
 .div-4{
@@ -129,7 +129,7 @@ section{
         /* white 0.25% 7% */
         /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 500px;
+    height: 575px;
 }
 /* -------------------------------------------------------NOTE - 5 ----------------------------------------------------*/
 .div-5{
@@ -142,7 +142,7 @@ section{
         /* white 0.25% 7% */
         /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 500px;
+    height: 575px;
 }
 /* -------------------------------------------------------NOTE - 6 ----------------------------------------------------*/
 .div-6{
@@ -155,7 +155,7 @@ section{
         /* white 0.25% 7% */
         /* ); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 500px;
+    height: 575px;
 }
 /* ----------------------------------------------HEADINGS BINNEN DE NOTES--------------------------------------------------- */
 h4{
@@ -203,6 +203,7 @@ p{
     font-size: 16px;
     text-align: left;
     padding-left: 32px;
+    line-height: 1.3;
 }
 
 
