@@ -82,12 +82,15 @@ section{
 /* -------------------------------------------------------NOTE - 1 ----------------------------------------------------*/
 .div-1{
     grid-area: div-1;
+    /* sanne hulp "line height" */
+    line-height: 1.5rem;            
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    background-image: repeating-linear-gradient(
-        rgb(214, 214, 214) 0% 0.25%,
-        white 0.25% 7%
+    background-image: 
+        repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
         );  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 575px;
@@ -95,65 +98,80 @@ section{
 /* -------------------------------------------------------NOTE - 2 ----------------------------------------------------*/
 .div-2{
     grid-area: div-2;
+
+    line-height: 1.4rem;
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    background-image: repeating-linear-gradient(
-        rgb(214, 214, 214) 0% 0.25%,
-        white 0.25% 7%
-        );
+    background-image: 
+    repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
+        );  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 575px;
 }
 /* -------------------------------------------------------NOTE - 3 ----------------------------------------------------*/
 .div-3{
     grid-area: div-3;
+
+    line-height: 1.4rem;
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    background-image: repeating-linear-gradient(
-        rgb(214, 214, 214) 0% 0.25%,
-        white 0.25% 7%
-        );
+    background-image: 
+    repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
+        );  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 575px;
 }
 /* -------------------------------------------------------NOTE - 4 ----------------------------------------------------*/
 .div-4{
     grid-area: div-4;
+
+    line-height: 1.4rem;
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    /* background-image: repeating-linear-gradient( */
-        /* rgb(214, 214, 214) 0% 0.25%, */
-        /* white 0.25% 7% */
-        /* ); */
+    background-image: 
+    repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
+        );  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 575px;
 }
 /* -------------------------------------------------------NOTE - 5 ----------------------------------------------------*/
 .div-5{
     grid-area: div-5;
+
+    line-height: 1.4rem;
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    /* background-image: repeating-linear-gradient( */
-        /* rgb(214, 214, 214) 0% 0.25%, */
-        /* white 0.25% 7% */
-        /* ); */
+    background-image: 
+    repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
+        );  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 575px;
 }
 /* -------------------------------------------------------NOTE - 6 ----------------------------------------------------*/
 .div-6{
     grid-area: div-6;
+
+    line-height: 1.3rem;
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
-    /* background-image: repeating-linear-gradient( */
-        /* rgb(214, 214, 214) 0% 0.25%, */
-        /* white 0.25% 7% */
-        /* ); */
+    background-image: 
+    repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
+        );  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 575px;
 }
@@ -203,7 +221,8 @@ p{
     font-size: 16px;
     text-align: left;
     padding-left: 32px;
-    line-height: 1.3;
+    /* sanne hulp "line-height"*/
+    /* line-height: 1.3; */
 }
 
 
