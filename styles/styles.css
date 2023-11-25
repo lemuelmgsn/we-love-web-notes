@@ -23,10 +23,7 @@ h2{
     font-weight:  bold;
 }
 /* -------------------HEADINGS BINNEN DE NOTES------------------------ */
-h4{
-    text-align: center;
-}
-h5{
+h4, h5{
     text-align: center;
 }
 h6{
@@ -35,25 +32,21 @@ h6{
     font-size: 17px;
 }
 /* -----positie van "Week 1 - Week 2 - Week 3" ------ */
-.h3-links{
+h3{
     margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.h3-links{
     text-align: left;
     padding-left: 32px;
-    font-weight: bold;
-    font-size: 20px;
 }
 .h3-midden{
-    margin-top: 25px;
     text-align: center;
-    font-weight: bold;
-    font-size: 20px;
 }
 .h3-rechts{
-    margin-top: 25px;
     text-align: right;
     padding-right: 60px;
-    font-weight: bold;
-    font-size: 20px;
 }
 /* ----positie tekst op notes----- */
 .note-tekst{
@@ -126,11 +119,11 @@ a:hover{
 section{
     margin: 30px;
 }
-/* -------------------------------------------------------NOTE - 1 ----------------------------------------------------*/
-.div-1{
-    grid-area: div-1;
+/* ------------------------------------------------------- design voor alle notes ----------------------------------------------------*/
+.div-1, .div-2 , .div-3, .div-4, .div-5, .div-6{
+    /* grid-area: div-1; */ 
     /* sanne hulp "line height" */
-    line-height: 1.5rem;            
+    /* line-height: 1.5rem;  */
     background-color: #c3c3c3;
     border-radius: 20px;
     text-align: center;
@@ -142,83 +135,29 @@ section{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 575px;
 }
-/* -------------------------------------------------------NOTE - 2 ----------------------------------------------------*/
+/* ----------------------------------- positie van de divs op de grid en lijntjes van de note --------------------------------*/
+.div-1{
+    grid-area: div-1;
+    line-height: 1.5rem;    
+}
 .div-2{
     grid-area: div-2;
-
-    line-height: 1.4rem;
-    background-color: #c3c3c3;
-    border-radius: 20px;
-    text-align: center;
-    background-image: 
-    repeating-linear-gradient(
-        white 0px calc(1lh - 1px),
-        rgb(214, 214, 214) calc(1lh - 1px) 1lh
-        );  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 575px;
+    line-height: 1.4rem;    
 }
-/* -------------------------------------------------------NOTE - 3 ----------------------------------------------------*/
 .div-3{
     grid-area: div-3;
-
-    line-height: 1.4rem;
-    background-color: #c3c3c3;
-    border-radius: 20px;
-    text-align: center;
-    background-image: 
-    repeating-linear-gradient(
-        white 0px calc(1lh - 1px),
-        rgb(214, 214, 214) calc(1lh - 1px) 1lh
-        );  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 575px;
+    line-height: 1.4rem;    
 }
-/* -------------------------------------------------------NOTE - 4 ----------------------------------------------------*/
 .div-4{
     grid-area: div-4;
-
-    line-height: 1.4rem;
-    background-color: #c3c3c3;
-    border-radius: 20px;
-    text-align: center;
-    background-image: 
-    repeating-linear-gradient(
-        white 0px calc(1lh - 1px),
-        rgb(214, 214, 214) calc(1lh - 1px) 1lh
-        );  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 575px;
+    line-height: 1.4rem;    
 }
-/* -------------------------------------------------------NOTE - 5 ----------------------------------------------------*/
 .div-5{
     grid-area: div-5;
-
-    line-height: 1.4rem;
-    background-color: #c3c3c3;
-    border-radius: 20px;
-    text-align: center;
-    background-image: 
-    repeating-linear-gradient(
-        white 0px calc(1lh - 1px),
-        rgb(214, 214, 214) calc(1lh - 1px) 1lh
-        );  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 575px;
+    line-height: 1.4rem;    
 }
-/* -------------------------------------------------------NOTE - 6 ----------------------------------------------------*/
 .div-6{
     grid-area: div-6;
-
-    line-height: 1.3rem;
-    background-color: #c3c3c3;
-    border-radius: 20px;
-    text-align: center;
-    background-image: 
-    repeating-linear-gradient(
-        white 0px calc(1lh - 1px),
-        rgb(214, 214, 214) calc(1lh - 1px) 1lh
-        );  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 575px;
+    line-height: 1.3rem;    
 }
+
