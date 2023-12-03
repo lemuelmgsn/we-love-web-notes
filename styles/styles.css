@@ -72,7 +72,7 @@ p{
     font-size: 14px;
     font-weight: bold;
 }
-/* ---styling voro de nav links----------- */
+/* ---styling voor de nav links----------- */
 nav ul{
     text-align: center;
     list-style-type: none;
@@ -92,9 +92,15 @@ a{
     color: black;
     text-decoration: none;
 }
+.normale-link{
+    color: blue;
+    text-decoration: underline;
+}
+.normale-link:hover{
+    color: darkblue;
+}
 a:hover{
     color: grey;
-    
 }
 /* ---------------------- lay-out ------------------------ */
 .divs{
@@ -107,6 +113,17 @@ a:hover{
     "div-1 div-2 div-3"
     "div-4 div-5 div-6"
     "div-4 div-5 div-6";
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.divs-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    grid-template-areas: 
+    "div-1 div-2 div-3"
+    "div-1 div-2 div-3";
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -150,5 +167,23 @@ section{
 .div-6{
     grid-area: div-6;
     line-height: 1.3rem;    
+}
+.vakantie-foto{
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+}
+.denk-cyclus{
+    display: flex;
+}
+.denk-cyclus-foto{
+    margin-top: 0;
+    height: 50vh;
+    border-radius: 5px;
+    margin: 10px;
+}
+.flex{
+    display: flex;
 }
 
