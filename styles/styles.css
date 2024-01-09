@@ -190,3 +190,77 @@ section{
     display: flex;
 }
 
+
+@media (max-width: 1132px) { 
+    .divs {
+      grid-template-areas:
+        'div-1 div-2'
+        'div-1 div-2'
+        'div-3 div-4'
+        'div-3 div-4'
+        'div-5 div-6'
+        'div-5 div-6';
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows:  1fr 2fr;
+      
+    }
+    .divs-2 {
+        grid-template-areas:
+        'div-1 div-2'
+        'div-1 div-2'
+        'div-3 div-4'
+        'div-3 div-4';
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows:  2fr 2fr;
+
+    }
+  }
+
+
+
+  /* mobiel en ietjes groter */
+  @media (max-width: 760px) { 
+    .divs{
+    grid-template-areas:
+        'div-1'
+        'div-1'
+        'div-2'
+        'div-2'
+        'div-3'
+        'div-3'
+        'div-4'
+        'div-4'
+        'div-5'
+        'div-5'
+        'div-6'
+        'div-6';
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
+    }
+    .divs-2 {
+        grid-template-areas:
+            'div-1'
+            'div-1'
+            'div-2'
+            'div-2'
+            'div-3'
+            'div-3'
+            'div-4'
+            'div-4'
+            'div-5'
+            'div-5'
+            'div-6'
+            'div-6';
+        grid-template-columns: 1fr;
+        grid-template-rows:  1fr;
+    }
+  }
+  @media (max-width: 956px) { 
+    .vakantie-foto{
+        height: 80%;
+        width: 80%;
+    }
+  }
+
+  
+
